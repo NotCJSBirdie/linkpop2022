@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,AAAC,CACV,gBAAgB,CAAE,OAAO,CAC1B",
+    "sources": [
+        "Create.module.scss"
+    ],
+    "names": [],
+    "file": "Create.module.css"
+}
