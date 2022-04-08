@@ -4,6 +4,7 @@ import Create from "./components/Create";
 
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import MakeIt from "./components/MakeIt";
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +20,8 @@ const Home: NextPage = () => {
       <Hero />
 
       <Create />
+
+      <MakeIt />
     </div>
   );
 };
