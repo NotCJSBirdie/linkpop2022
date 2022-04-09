@@ -7,6 +7,7 @@ module.exports = {
     "./pages/components/Create.tsx",
     "./pages/components/MarqueeContent.tsx",
     "./pages/components/MakeIt.tsx",
+    "./pages/components/MonetizeIt.tsx",
   ],
   theme: {
     extend: {},

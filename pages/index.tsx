@@ -5,6 +5,8 @@ import Create from "./components/Create";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import MakeIt from "./components/MakeIt";
+import MonetizeIt from "./components/MonetizeIt";
+// import "~video-react/dist/video-react.css";
 
 const Home: NextPage = () => {
   return (
@@ -22,6 +24,8 @@ const Home: NextPage = () => {
       <Create />
 
       <MakeIt />
+
+      <MonetizeIt />
     </div>
   );
 };
