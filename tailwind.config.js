@@ -8,6 +8,8 @@ module.exports = {
     "./pages/components/MarqueeContent.tsx",
     "./pages/components/MakeIt.tsx",
     "./pages/components/MonetizeIt.tsx",
+    "./pages/components/ShareIt.tsx",
+    "./pages/components/AnalyzeIt.tsx",
   ],
   theme: {
     extend: {},

@@ -1,11 +1,12 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import AnalyzeIt from "./components/AnalyzeIt";
 import Create from "./components/Create";
-
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import MakeIt from "./components/MakeIt";
 import MonetizeIt from "./components/MonetizeIt";
+import ShareIt from "./components/ShareIt";
 // import "~video-react/dist/video-react.css";
 
 const Home: NextPage = () => {
@@ -26,6 +27,10 @@ const Home: NextPage = () => {
       <MakeIt />
 
       <MonetizeIt />
+
+      <ShareIt />
+
+      <AnalyzeIt />
     </div>
   );
 };
