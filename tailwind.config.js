@@ -10,6 +10,8 @@ module.exports = {
     "./pages/components/MonetizeIt.tsx",
     "./pages/components/ShareIt.tsx",
     "./pages/components/AnalyzeIt.tsx",
+    "./pages/components/Community.tsx",
+    "./pages/components/CommunityMarquee.tsx",
   ],
   theme: {
     extend: {},

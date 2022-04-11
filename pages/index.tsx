@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import AnalyzeIt from "./components/AnalyzeIt";
+import Community from "./components/Community";
 import Create from "./components/Create";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -31,6 +32,8 @@ const Home: NextPage = () => {
       <ShareIt />
 
       <AnalyzeIt />
+
+      <Community />
     </div>
   );
 };
