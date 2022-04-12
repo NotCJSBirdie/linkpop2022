@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,AAAC,CACb,gBAAgB,CAAE,OAAO,CAC1B",
+    "sources": [
+        "AnalyzeIt.module.scss"
+    ],
+    "names": [],
+    "file": "AnalyzeIt.module.css"
+}
