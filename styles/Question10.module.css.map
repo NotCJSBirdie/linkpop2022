@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,AAAC,CACd,gBAAgB,CAAE,OAAO,CAC1B",
+    "sources": [
+        "Question10.module.scss"
+    ],
+    "names": [],
+    "file": "Question10.module.css"
+}

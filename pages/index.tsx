@@ -11,6 +11,13 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import MakeIt from "./components/MakeIt";
 import MonetizeIt from "./components/MonetizeIt";
+import Question10 from "./components/Question10";
+import Question5 from "./components/Question5";
+import Question6 from "./components/Question6";
+import Question7 from "./components/Question7";
+import Question8 from "./components/Question8";
+import Question9 from "./components/Question9";
+import QuestionTitle from "./components/QuestionTitle";
 import ShareIt from "./components/ShareIt";
 // import "~video-react/dist/video-react.css";
 
@@ -39,6 +46,8 @@ const Home: NextPage = () => {
 
       <Community />
 
+      <QuestionTitle />
+
       <FAQ1 />
 
       <FAQ2 />
@@ -46,6 +55,18 @@ const Home: NextPage = () => {
       <FAQ3 />
 
       <FAQ4 />
+
+      <Question5 />
+
+      <Question6 />
+
+      <Question7 />
+
+      <Question8 />
+
+      <Question9 />
+
+      <Question10 />
     </div>
   );
 };
