@@ -1,15 +1,15 @@
 import React from "react";
 import useCollapse from "react-collapsed";
 import { useState } from "react";
-import styles from "../../styles/FAQ1.module.css";
+import styles from "../../styles/FAQ2.module.css";
 
-const FAQ1 = () => {
+const FAQ2 = () => {
   const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
 
   const [cross, setCross] = useState(false);
 
   return (
-    <div className="px-10 py-10" id={styles.faq1body}>
+    <div className="px-10 py-10" id={styles.faq2body}>
       <div className="border-4 border-black bg-white text-black w-full">
         <div
           className="flex flex-row items-center justify-between px-10 py-10"
@@ -17,7 +17,9 @@ const FAQ1 = () => {
             onClick: () => setCross(!cross),
           })}
         >
-          <h1 className="text-4xl font-bold w-full">What is Linkpop?</h1>
+          <h1 className="text-4xl font-bold w-full">
+            What are shoppable links?
+          </h1>
 
           <div className="rounded-full bg-blue-500 p-2">
             {cross ? (
@@ -60,22 +62,22 @@ const FAQ1 = () => {
         <div className="w-full" {...getCollapseProps()}>
           <div className="w-full px-10">
             <p className="mb-10 text-xl font-semibold">
-              Linkpop is a mobile-first, easy-to-use link in bio tool that lets
-              you send your visitors and followers to a curated collection of
-              all your best links. Use it anywhere to connect all your links in
-              one place and build a strong, cohesive presence. Add links to your
-              other social accounts, websites, YouTube channel, Spotify
-              playlists—you name it.
+              Shoppable links make it easy for users to shop while they’re
+              browsing social media. While it may sound complicated, it’s simple
+              to set up if you have the right link in bio tool. With Linkpop,
+              shoppable links are fully integrated with your Shopify store.
+              They’re powered by Shopify’s fast and secure checkout, which is
+              trusted by millions of merchants around the world. Guide your
+              Linkpop visitors to checkout in just three clicks.
             </p>
 
             <p className="mb-10 text-xl font-semibold">
-              And because Linkpop is brought to you by Shopify, you’ll enjoy
-              seamless integration with your Shopify store to promote your
-              products, convert more visitors into customers, and make more
-              sales. The best part is: you can do it all in seconds. Build a
-              beautiful, custom link in bio page, click publish, and boom,
-              you’re ready to go. Then, use Linkpop’s analytics to see how your
-              page and links are performing.
+              If you sell products or services online, or you’re planning to
+              start, shoppable links are an amazing way to grow your sales. They
+              allow you to lead customers to specific pages and products at the
+              exact moment of interest in their feed, then transform them from a
+              visitor to a customer in seconds. If you’re not using shoppable
+              links, you’re missing out!
             </p>
           </div>
         </div>
@@ -84,4 +86,4 @@ const FAQ1 = () => {
   );
 };
 
-export default FAQ1;
+export default FAQ2;

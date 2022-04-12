@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,AAAC,CACR,gBAAgB,CAAE,OAAO,CAC1B",
+    "sources": [
+        "FAQ2.module.scss"
+    ],
+    "names": [],
+    "file": "FAQ2.module.css"
+}

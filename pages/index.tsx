@@ -4,6 +4,9 @@ import AnalyzeIt from "./components/AnalyzeIt";
 import Community from "./components/Community";
 import Create from "./components/Create";
 import FAQ1 from "./components/FAQ1";
+import FAQ2 from "./components/FAQ2";
+import FAQ3 from "./components/FAQ3";
+import FAQ4 from "./components/FAQ4";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import MakeIt from "./components/MakeIt";
@@ -37,6 +40,12 @@ const Home: NextPage = () => {
       <Community />
 
       <FAQ1 />
+
+      <FAQ2 />
+
+      <FAQ3 />
+
+      <FAQ4 />
     </div>
   );
 };

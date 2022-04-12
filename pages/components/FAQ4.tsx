@@ -1,15 +1,15 @@
 import React from "react";
 import useCollapse from "react-collapsed";
 import { useState } from "react";
-import styles from "../../styles/FAQ1.module.css";
+import styles from "../../styles/FAQ4.module.css";
 
-const FAQ1 = () => {
+const FAQ4 = () => {
   const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
 
   const [cross, setCross] = useState(false);
 
   return (
-    <div className="px-10 py-10" id={styles.faq1body}>
+    <div className="px-10 py-10" id={styles.faq4body}>
       <div className="border-4 border-black bg-white text-black w-full">
         <div
           className="flex flex-row items-center justify-between px-10 py-10"
@@ -17,7 +17,7 @@ const FAQ1 = () => {
             onClick: () => setCross(!cross),
           })}
         >
-          <h1 className="text-4xl font-bold w-full">What is Linkpop?</h1>
+          <h1 className="text-4xl font-bold w-full">Is Linkpop free?</h1>
 
           <div className="rounded-full bg-blue-500 p-2">
             {cross ? (
@@ -60,22 +60,8 @@ const FAQ1 = () => {
         <div className="w-full" {...getCollapseProps()}>
           <div className="w-full px-10">
             <p className="mb-10 text-xl font-semibold">
-              Linkpop is a mobile-first, easy-to-use link in bio tool that lets
-              you send your visitors and followers to a curated collection of
-              all your best links. Use it anywhere to connect all your links in
-              one place and build a strong, cohesive presence. Add links to your
-              other social accounts, websites, YouTube channel, Spotify
-              playlists—you name it.
-            </p>
-
-            <p className="mb-10 text-xl font-semibold">
-              And because Linkpop is brought to you by Shopify, you’ll enjoy
-              seamless integration with your Shopify store to promote your
-              products, convert more visitors into customers, and make more
-              sales. The best part is: you can do it all in seconds. Build a
-              beautiful, custom link in bio page, click publish, and boom,
-              you’re ready to go. Then, use Linkpop’s analytics to see how your
-              page and links are performing.
+              Created by Shopify, Linkpop is 100% free for anyone and everyone
+              to use. To sign up, you will need to create a free account.
             </p>
           </div>
         </div>
@@ -84,4 +70,4 @@ const FAQ1 = () => {
   );
 };
 
-export default FAQ1;
+export default FAQ4;
