@@ -3,6 +3,7 @@ import Head from "next/head";
 import AnalyzeIt from "./components/AnalyzeIt";
 import Community from "./components/Community";
 import Create from "./components/Create";
+import FAQ1 from "./components/FAQ1";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import MakeIt from "./components/MakeIt";
@@ -34,6 +35,8 @@ const Home: NextPage = () => {
       <AnalyzeIt />
 
       <Community />
+
+      <FAQ1 />
     </div>
   );
 };

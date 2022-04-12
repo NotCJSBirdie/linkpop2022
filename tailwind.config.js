@@ -12,6 +12,7 @@ module.exports = {
     "./pages/components/AnalyzeIt.tsx",
     "./pages/components/Community.tsx",
     "./pages/components/CommunityMarquee.tsx",
+    "./pages/components/FAQ1.tsx",
   ],
   theme: {
     extend: {},
