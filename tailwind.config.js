@@ -23,6 +23,7 @@ module.exports = {
     "./pages/components/Question9.tsx",
     "./pages/components/Question10.tsx",
     "./pages/components/QuestionTitle.tsx",
+    "./pages/components/GetStarted.tsx",
   ],
   theme: {
     extend: {},

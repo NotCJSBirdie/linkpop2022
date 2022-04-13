@@ -7,6 +7,7 @@ import FAQ1 from "./components/FAQ1";
 import FAQ2 from "./components/FAQ2";
 import FAQ3 from "./components/FAQ3";
 import FAQ4 from "./components/FAQ4";
+import GetStarted from "./components/GetStarted";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import MakeIt from "./components/MakeIt";
@@ -67,6 +68,8 @@ const Home: NextPage = () => {
       <Question9 />
 
       <Question10 />
+
+      <GetStarted />
     </div>
   );
 };
