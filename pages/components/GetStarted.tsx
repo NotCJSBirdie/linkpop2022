@@ -7,6 +7,17 @@ const GetStarted = () => {
       className="px-12 md:px-16 md:pl-28 py-10 pb-20 w-full"
       id={styles.getstartedbody}
     >
+      <div className="flex flex-row justify-between w-full">
+        <div className="invisible">Invisible</div>
+
+        <div className="">
+          <img
+            src="https://cdn.shopify.com/shopifycloud/linkpop/assets/callToActionTopIcon.f582ac21.svg"
+            alt=""
+          />
+        </div>
+      </div>
+
       <div className="flex flex-row">
         <div
           className="border-4 border-black px-5 md:px-16 py-36 rounded-lg z-50 absolute w-3/4"
@@ -79,6 +90,17 @@ const GetStarted = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="flex flex-row justify-between w-full">
+        <div className="">
+          <img
+            src="https://cdn.shopify.com/shopifycloud/linkpop/assets/callToActionBottomIcon.887187da.svg"
+            alt=""
+          />
+        </div>
+
+        <div className="invisible">Invisible</div>
       </div>
     </div>
   );
