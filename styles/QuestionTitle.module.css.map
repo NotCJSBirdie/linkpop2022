@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,kBAAkB,AAAC,CACjB,gBAAgB,CAAE,OAAO,CAC1B",
+    "mappings": "AAAA,AAAA,kBAAkB,AAAC,CACjB,gBAAgB,CAAE,OAAO,CACzB,WAAW,CAAE,gBAAgB,CAC9B",
     "sources": [
         "QuestionTitle.module.scss"
     ],

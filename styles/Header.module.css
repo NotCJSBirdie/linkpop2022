@@ -1,8 +1,16 @@
 #headerbackground {
-	background-color: #b2e1bc;
-	font-family: "Vinila Regular";
+  background-color: #b2e1bc;
+  font-family: "Vinila Regular";
 }
 
 #signupbutton {
-	background-color: #143db8;
+  background-color: #143db8;
+}
+
+#modalbutton {
+  background-color: #008060;
+}
+
+#logintext {
+  color: #008060;
 }

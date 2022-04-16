@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../../styles/Footer.module.css";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -13,27 +14,47 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col md:flex-row items-center">
-          <h1 className="md:mr-4 md:mb-0 mb-4">Help Center</h1>
+          <h1 className="md:mr-4 md:mb-0 mb-4">
+            <Link href="https://help.shopify.com/en/manual/online-sales-channels/linkpop">
+              <a>Help Center</a>
+            </Link>
+          </h1>
 
-          <h1 className="md:mr-4 md:mb-0 mb-4">Terms of Services</h1>
+          <h1 className="md:mr-4 md:mb-0 mb-4">
+            <Link href="https://linkpop.com/terms">
+              <a>Terms of Services</a>
+            </Link>
+          </h1>
 
-          <h1 className="md:mr-4 md:mb-0 mb-4">Privacy Policy</h1>
+          <h1 className="md:mr-4 md:mb-0 mb-4">
+            <Link href="https://www.shopify.com/legal/privacy">
+              <a>Privacy Policy</a>
+            </Link>
+          </h1>
 
           <div className="flex flex-row">
             <div className="mr-4 md:mr-4">
               <div className="border-2 border-black rounded-lg p-2 bg-white absolute z-50">
-                <img
-                  src="https://cdn.shopify.com/shopifycloud/linkpop/assets/instagramIcon.1465ef5e.svg"
-                  alt=""
-                />
+                <Link href="https://www.instagram.com/shopify">
+                  <a>
+                    <img
+                      src="https://cdn.shopify.com/shopifycloud/linkpop/assets/instagramIcon.1465ef5e.svg"
+                      alt=""
+                    />
+                  </a>
+                </Link>
               </div>
 
               <div className="border-2 border-black rounded-lg p-2 relative bg-pink-400 top-1 left-1 z-0">
-                <img
-                  src="https://cdn.shopify.com/shopifycloud/linkpop/assets/instagramIcon.1465ef5e.svg"
-                  alt=""
-                  className="invisible"
-                />
+                <Link href="https://twitter.com/shopify">
+                  <a>
+                    <img
+                      src="https://cdn.shopify.com/shopifycloud/linkpop/assets/instagramIcon.1465ef5e.svg"
+                      alt=""
+                      className="invisible"
+                    />
+                  </a>
+                </Link>
               </div>
             </div>
 
