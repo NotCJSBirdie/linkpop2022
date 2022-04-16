@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,AAAC,CAChB,gBAAgB,CAAE,OAAO,CAC1B,AAED,AAAA,eAAe,AAAC,CACd,gBAAgB,CAAE,OAAO,CACzB,WAAW,CAAE,gBAAgB,CAC9B,AAED,AAAA,iBAAiB,AAAC,CAChB,gBAAgB,CAAE,OAAO,CAC1B,AAED,AAAA,iBAAiB,AAAC,CAChB,gBAAgB,CAAE,KAAK,CACxB,AAED,AAAA,YAAY,AAAC,CACX,gBAAgB,CAAE,OAAO,CAC1B,AAED,AAAA,UAAU,AAAC,CACT,KAAK,CAAE,OAAO,CACf",
+    "sources": [
+        "GetStarted.module.scss"
+    ],
+    "names": [],
+    "file": "GetStarted.module.css"
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const CommunityMarquee = () => {
   return (
@@ -20,7 +21,20 @@ const CommunityMarquee = () => {
                 height={50}
                 width={50}
               ></img>
-              <h1 className="text-xl underline underline-offset-4">Judy. Co</h1>
+
+              <h1 className="text-xl underline underline-offset-4 ">
+                <Link href="https://linkpop.com/judy">
+                  <a className="flex flex-row items-center">
+                    Judy. Co
+                    <span className="">
+                      <img
+                        src="https://cdn.shopify.com/shopifycloud/linkpop/assets/reviewsArrow.46d4de92.svg"
+                        alt=""
+                      />
+                    </span>
+                  </a>
+                </Link>
+              </h1>
             </div>
           </div>
         </div>
@@ -42,8 +56,19 @@ const CommunityMarquee = () => {
                 height={50}
                 width={50}
               ></img>
-              <h1 className="text-xl underline underline-offset-4">
-                Neter Gold
+
+              <h1 className="text-xl underline underline-offset-4 ">
+                <Link href="https://linkpop.com/netergold">
+                  <a className="flex flex-row items-center">
+                    Neter Gold
+                    <span className="">
+                      <img
+                        src="https://cdn.shopify.com/shopifycloud/linkpop/assets/reviewsArrow.46d4de92.svg"
+                        alt=""
+                      />
+                    </span>
+                  </a>
+                </Link>
               </h1>
             </div>
           </div>
@@ -66,7 +91,20 @@ const CommunityMarquee = () => {
                 height={50}
                 width={50}
               ></img>
-              <h1 className="text-xl underline underline-offset-4">Station</h1>
+
+              <h1 className="text-xl underline underline-offset-4 ">
+                <Link href="https://linkpop.com/stationcoldbrew">
+                  <a className="flex flex-row items-center">
+                    Station
+                    <span className="">
+                      <img
+                        src="https://cdn.shopify.com/shopifycloud/linkpop/assets/reviewsArrow.46d4de92.svg"
+                        alt=""
+                      />
+                    </span>
+                  </a>
+                </Link>
+              </h1>
             </div>
           </div>
         </div>
@@ -89,8 +127,19 @@ const CommunityMarquee = () => {
                 height={50}
                 width={50}
               ></img>
-              <h1 className="text-xl underline underline-offset-4">
-                Lauren Fit Foodie
+
+              <h1 className="text-xl underline underline-offset-4 ">
+                <Link href="https://linkpop.com/laurenfitfoodie">
+                  <a className="flex flex-row items-center">
+                    Lauren Fit Foodie
+                    <span className="">
+                      <img
+                        src="https://cdn.shopify.com/shopifycloud/linkpop/assets/reviewsArrow.46d4de92.svg"
+                        alt=""
+                      />
+                    </span>
+                  </a>
+                </Link>
               </h1>
             </div>
           </div>
@@ -113,8 +162,19 @@ const CommunityMarquee = () => {
                 height={50}
                 width={50}
               ></img>
-              <h1 className="text-xl underline underline-offset-4">
-                Pink House
+
+              <h1 className="text-xl underline underline-offset-4 ">
+                <Link href="https://linkpop.com/pinkhouse">
+                  <a className="flex flex-row items-center">
+                    Lauren Fit Foodie
+                    <span className="">
+                      <img
+                        src="https://cdn.shopify.com/shopifycloud/linkpop/assets/reviewsArrow.46d4de92.svg"
+                        alt=""
+                      />
+                    </span>
+                  </a>
+                </Link>
               </h1>
             </div>
           </div>

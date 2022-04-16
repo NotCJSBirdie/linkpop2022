@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,AAAC,CACV,gBAAgB,CAAE,OAAO,CACzB,WAAW,CAAE,gBAAgB,CAC9B",
+    "sources": [
+        "Footer.module.scss"
+    ],
+    "names": [],
+    "file": "Footer.module.css"
+}

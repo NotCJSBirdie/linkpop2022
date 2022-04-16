@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "../../styles/MonetizeIt.module.css";
+import styles from "../../styles/GetStarted.module.css";
+import Link from "next/link";
 import { useState } from "react";
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
-import Link from "next/link";
 
 const modalStyles = {
   modal: {
@@ -31,70 +31,114 @@ const closeIcon = (
   </svg>
 );
 
-const MonetizeIt = () => {
+const GetStarted = () => {
   const [open, setOpen] = useState(false);
 
   const onOpenModal = () => setOpen(true);
   const onCloseModal = () => setOpen(false);
+
   return (
-    <div>
-      <div
-        id={styles.monetizeitbody}
-        className="flex flex-col md:flex-row items-center w-full p-8 h-full py-32"
-      >
-        <div className="w-full md:w-1/2 flex flex-col items-start justify-between h-full md:px-16 px-4">
-          <div className="mb-10 md:mb-48 flex flex-row items-center">
-            <h1 className="text-5xl md:text-6xl font-bold mr-4 md:mr-8">
-              Monetize it
+    <div
+      className="px-12 md:px-16 md:pl-28 py-10 pb-20 w-full"
+      id={styles.getstartedbody}
+    >
+      <div className="flex flex-row justify-between w-full">
+        <div className="invisible">Invisible</div>
+
+        <div className="">
+          <img
+            src="https://cdn.shopify.com/shopifycloud/linkpop/assets/callToActionTopIcon.f582ac21.svg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div className="flex flex-row">
+        <div
+          className="border-4 border-black px-5 md:px-16 py-36 rounded-lg z-50 absolute w-3/4"
+          id={styles.getstartedmodala}
+        >
+          <div className="flex flex-col items-center">
+            <h1 className="text-4xl md:text-6xl font-bold mb-10 text-center">
+              More clicks and sales await
             </h1>
 
-            <img
-              src="https://cdn.shopify.com/shopifycloud/linkpop/assets/monetizeItIcon.0c8a14a4.svg"
-              alt="makeiticon"
-            />
-          </div>
-
-          <div>
-            <p className="font-semibold text-lg md:text-2xl mb-10">
-              Using Instagram or TikTok to promote your products? Turn followers
-              into customers by adding shoppable links to your Linkpop page
-              powered by Shopify checkout.
-            </p>
-
-            <p className="font-semibold text-lg md:text-2xl mb-10">
-              New to ecommerce? Level up your Linkpop page with a Shopify plan,
-              starting at only $9 / month.
-            </p>
-
-            <h1
-              onClick={onOpenModal}
-              id={styles.getthatmoneytext}
-              className="text-lg md:text-3xl underline flex flex-row items-center"
-            >
-              Get that money
-              <span className="px-2">
-                <img
-                  src="https://cdn.shopify.com/shopifycloud/linkpop/assets/up-right-arrow.d428a60a.svg"
-                  alt=""
-                />
-              </span>
+            <h1 className="px-4 md:px-16 text-lg md:text-3xl font-semibold text-center">
+              Anyone can create a custom Linkpop page, from creators to business
+              owners—power-up your social bio, on us.
             </h1>
+
+            <div className="py-16">
+              <div className="mb-10 flex flex-col items-center">
+                <button
+                  onClick={onOpenModal}
+                  id={styles.getstartedbutton}
+                  className="px-2 md:px-10 py-5 font-bold text-white border-4 border-black rounded-full text-md md:text-2xl text-center"
+                >
+                  Get Started Free
+                </button>
+              </div>
+
+              <div className="flex flex-col items-center text-center">
+                <h1>
+                  Already have an account?
+                  <span className="underline underline-offset-4 mx-2">
+                    <Link href="https://accounts.shopify.com/lookup?rid=19be5ce7-34ab-4bf5-a794-d38f3bc58788">
+                      <a>Sign in</a>
+                    </Link>
+                  </span>
+                </h1>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div className="w-full md:w-1/2 flex flex-col items-center ">
-          <video
-            controls
-            autoPlay
-            className="md:m-0 m-4 md:my-0 my-20 border-4 border-black rounded-lg"
-            loop
-          >
-            <source
-              src="https://cdn.shopify.com/shopifycloud/linkpop/assets/monetizeIt.57576ef0.mp4"
-              type="video/mp4"
-            ></source>
-          </video>
+        <div
+          id={styles.getstartedmodalb}
+          className="border-4 border-black px-5 md:px-16 py-36 rounded-lg z-0 relative top-5 w-full md:w-5/6 md:left-16 left-5 md:visible invisible"
+        >
+          <div className="flex flex-col items-center invisible">
+            <h1 className="text-4xl md:text-6xl font-bold mb-10 text-center invisible">
+              More clicks and sales await
+            </h1>
+
+            <h1 className="px-4 md:px-16 text-lg md:text-3xl font-semibold text-center invisible">
+              Anyone can create a custom Linkpop page, from creators to business
+              owners—power-up your social bio, on us.
+            </h1>
+
+            <div className="py-16 invisible">
+              <div className="mb-10 flex flex-col items-center">
+                <button
+                  id={styles.getstartedbutton}
+                  className="px-2 md:px-10 py-5 font-bold text-white border-4 border-black rounded-full text-md md:text-2xl text-center"
+                >
+                  Get Started Free
+                </button>
+              </div>
+
+              <div className="flex flex-col items-center text-center">
+                <h1>
+                  Already have an account?
+                  <span className="underline underline-offset-4 mx-2">
+                    Sign in
+                  </span>
+                </h1>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div className="flex flex-row justify-between w-full">
+        <div className="">
+          <img
+            src="https://cdn.shopify.com/shopifycloud/linkpop/assets/callToActionBottomIcon.887187da.svg"
+            alt=""
+          />
+        </div>
+
+        <div className="invisible">Invisible</div>
       </div>
 
       <Modal
@@ -194,4 +238,4 @@ const MonetizeIt = () => {
   );
 };
 
-export default MonetizeIt;
+export default GetStarted;
